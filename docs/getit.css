@@ -32,7 +32,9 @@ Algumas informações úteis e dicas:
   flex-direction: row;
   background-color:  #f7d736;
   align-items: center;
-  height: 40px
+  height: 40px;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  
 }
 img{
   width:50px;
@@ -52,6 +54,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 
 .form-card {
   width: 420px;
@@ -85,31 +88,82 @@ body {
   margin-bottom: 2px;
 }
 
-.btn {
-  
-  font-weight: bold;
-  border: 3px solid #e0d426;
-  border-radius: 3px;
-  background-color: #e0d426;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: table-cell; 
-  vertical-align: middle;
-  align-items: center;
-  width: 100%;
-}
 .card{
   display: flex;
   flex-direction: column;
-  margin-top: 6px;
+  margin:6px 5px 0px 5px;
   border: 1px solid   #4c4c4c;
   height: 100px;
   width: 190px;
   justify-content: space-evenly;
   border-radius: 4px;
-  margin-left: 5px;
-  margin-right: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+  
+}
+
+.card-color-1{
+  background-color:  #fae890;
+}
+.card-color-2{
+  background-color:  #ef89ba;
+}
+.card-color-3{
+  background-color:  #9de0f5;
+}
+.card-color-4{
+  background-color:  #fae890;
+}
+.card-color-5{
+  background-color:   #abe9c1;
+}
+.card-color-6{
+  background-color:  #ead3a7;
+}
+.card-color-7{
+  background-color:  #ef89ba;
+}
+.card-color-8{
+  background-color:  #9de0f5;
+}
+.card-color-9{
+  background-color:  #fae890;
+}
+.card-color-10{
+  background-color:  #ef89ba;
+}
+.card-rotation-1{
+ transform: rotate(2deg);
+}
+.card-rotation-2{
+   transform: rotate(2deg);
+}
+.card-rotation-3{
+ transform: rotate(-2.5deg)  
+}
+.card-rotation-4{
+  transform: rotate(0.5deg)
+}
+.card-rotation-5{
+  transform: rotate(2deg)
+}
+.card-rotation-6{
+  transform: rotate(0.7deg)}
+.card-rotation-7{
+  transform: rotate(-2.8deg)}
+.card-rotation-8{
+  transform: rotate(-2.5deg)}
+.card-rotation-9{
+  transform: rotate(-2deg)}
+.card-rotation-10{
+  transform: rotate(-2deg)}
+
+
+.card:hover{
+  background-color:
+  #fae890
+   ;
 }
 .card-title{
   font-family: 'Permanent Marker', cursive;
@@ -120,7 +174,7 @@ body {
 }
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -168,4 +222,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
