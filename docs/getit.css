@@ -21,12 +21,103 @@ Algumas informações úteis e dicas:
       #abe9c1
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
-
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.appbar{
+  display: flex;
+  flex-direction: row;
+  background-color:  #f7d736;
+  align-items: center;
+  height: 40px
+}
+img{
+  width:50px;
+  height:30px;
+  margin-left: 6px;
+}
+span{
+  margin-left: 6px;
+}
 html,
 body {
   font-family: "Roboto", sans-serif;
 }
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
+.form-card {
+  width: 420px;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin:15px auto 15px auto ;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  
+}
+
+.form-card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  width: 300px;
+  border: 0;
+}
+
+.autoresize {
+  width: 300px;
+  border: 0;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+
+.btn {
+  
+  font-weight: bold;
+  border: 3px solid #e0d426;
+  border-radius: 3px;
+  background-color: #e0d426;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-cell; 
+  vertical-align: middle;
+  align-items: center;
+  width: 100%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  border: 1px solid   #4c4c4c;
+  height: 100px;
+  width: 190px;
+  justify-content: space-evenly;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 6px;
+}
+.card-content{
+  margin-left: 6px;
+}
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {

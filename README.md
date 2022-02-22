@@ -2,9 +2,9 @@
 
 DUPLA:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
+- Gabriel de Araújo Alves
+- Lister Ogusuku Ribeiro
+- Link do GitHub Pages:  https://insper-tecnologias-web.github.io/desafio-css-inside-insper-team/
 
 ## Desafio CSS
 
